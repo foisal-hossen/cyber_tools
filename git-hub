@@ -1,0 +1,19 @@
+****
+
+git config --global user.name "foisal-hossen"
+git config --global user.email "farjana01811389904@gmail.com"
+
+****
+# first time push
+git init
+git add README.md / git add .
+git commit -m "first commit"
+git branch -M main     
+git remote add origin https://github.com/foisal-hossen/cyber_tools.git
+git push -u origin main
+ 
+****
+git pull origin main
+git pull origin main --allow-unrelated-histories
+
+****
